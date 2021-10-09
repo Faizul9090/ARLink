@@ -1,0 +1,76 @@
+{
+  "RootNamespace": "ARLink",
+  "ServerTypings": {
+    "LocalTexts": true
+  },
+  "Restore": {
+    "Exclude": [
+      "/wwwroot/Scripts/serenity/Serenity.CoreLib*.*"
+    ]
+  },
+  "Connections": [
+    {
+      "Key": "Default",
+      "Tables": [
+        {
+          "Tablename": "dbo.Area",
+          "Identifier": "Area",
+          "Module": "Default",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Bill",
+          "Identifier": "Bill",
+          "Module": "Default",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Customer",
+          "Identifier": "Customer",
+          "Module": "Default",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Designation",
+          "Identifier": "Designation",
+          "Module": "Default",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Employee",
+          "Identifier": "Employee",
+          "Module": "Default",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Employee_Salary",
+          "Identifier": "EmployeeSalary",
+          "Module": "Default",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Expenditure",
+          "Identifier": "Expenditure",
+          "Module": "Default",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Month",
+          "Identifier": "Month",
+          "Module": "Default",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "dbo.Package",
+          "Identifier": "Package",
+          "Module": "Default",
+          "PermissionKey": "Administration:General"
+        }
+      ]
+    }
+  ],
+  "UpgradeInfo": {
+    "InitialType": "Community",
+    "InitialVersion": "5.0.49.2"
+  }
+}
